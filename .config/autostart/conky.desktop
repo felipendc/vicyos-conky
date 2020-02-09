@@ -4,7 +4,6 @@ Comment[en_AU]=
 Comment=
 Exec=conky --daemonize --pause=1
 GenericName[en_AU]=
-GenericName=
 Icon=conky-logomark-violet
 MimeType=
 Name[en_AU]=conky
