@@ -67,6 +67,6 @@ ${alignr}${voffset -20}${diskiograph 20,80 e6d5ec e6d5ec}
 ${goto 70}${voffset -1}${font Ubuntu:size=10}${color2}Used:${alignr}${fs_used /}
 ${goto 70}${voffset -3}${font Ubuntu:size=10}${color2}Free:${alignr}${fs_free /}
 ${color1}${goto 68}${voffset 55}NET ${font Ubuntu:size=10}${goto 47}${voffset -17}${color4}${downspeed eno1} ${alignr}${voffset 0}${downspeedgraph eno1 20,80 e6d5ec e6d5ec}
-${voffset -7}${goto 70}${color2}${font Ubuntu:size=10}${color2}${if_up enp9s0}eth:${alignr}${addr enp9s0} ${endif}
+${voffset -7}${goto 70}${color2}${font Ubuntu:size=10}${color2}${if_up wlp3s0}eth:${alignr}${addr wlp3s0} ${endif}
 ${voffset -3}${goto 70}${if_up wlp3s0}wlan:${alignr}${addr wlp3s0}${endif}
 ]];
